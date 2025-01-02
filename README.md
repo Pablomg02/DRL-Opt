@@ -1,7 +1,8 @@
 # **Guía de uso**
 
 > [!IMPORTANTE]
-> En caso de no desear instalar las librerías, el erchivo `main.ipynb` contiene toda la ejecuciones ya realizadas, de forma que no se requiere volver a ejecutarlas.
+> En caso de no desear instalar las librerías, el erchivo > `main.ipynb` contiene toda la ejecuciones ya 
+> realizadas, de forma que no se requiere volver a ejecutarlas.
 
 ## Instalación
 Se recomienda hacer uso de ***Python 3.9.13***, ya que versiones posteriores han presentado problemas de compatibilidad con las librerías. La forma más cómoda de cambiar de versión de Python es con [pyenv](https://pyenv-win.github.io/pyenv-win/).
