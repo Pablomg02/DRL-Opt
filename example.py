@@ -1,19 +1,12 @@
-import metaworld
-import random
+import gymnasium
 import highway_env
-
-# https://metaworld.farama.org/
-
+from matplotlib import pyplot as plt
 
 
-print(metaworld.ML1.ENV_NAMES)  # Check out the available environments
+env = gymnasium.make('highway-v0', render_mode='rgb_array')
+env.reset()
+for _ in range(3):
+    action = env.unwrapped.action_type.actions_indexes["IDLE"]
+    obs, reward, done, truncated, info = env.step(action)
+    env.render()
 
-ml1 = metaworld.ML1('pick-place-v2') # Construct the benchmark, sampling tasks
-
-env = ml1.train_classes['pick-place-v2']()  # Create an environment with task `pick_place`
-task = random.choice(ml1.train_tasks)
-env.set_task(task)  # Set task
-
-obs = env.reset()  # Reset environment
-a = env.action_space.sample()  # Sample an action
-obs, reward, terminate, truncate, info = env.step(a)
