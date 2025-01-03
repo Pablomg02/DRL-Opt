@@ -1,11 +1,7 @@
 # **Guía de uso**
 
-> [!IMPORTANTE]
-> En caso de no desear instalar las librerías, el erchivo > `main.ipynb` contiene toda la ejecuciones ya 
-> realizadas, de forma que no se requiere volver a ejecutarlas.
-
 > [!IMPORTANT]
-> En caso de no desear instalar las librerías, el erchivo > `main.ipynb` contiene toda la ejecuciones ya 
+> En caso de no desear instalar las librerías, el archivo  `main.ipynb` contiene toda la ejecuciones ya 
 > realizadas, de forma que no se requiere volver a ejecutarlas.
 
 
