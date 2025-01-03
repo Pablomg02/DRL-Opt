@@ -28,4 +28,4 @@ pip install -r requirements.txt
 ```
 
 ## Código
-El trabajo puede ser ejecutado paso a paso haciendo uso del archivo `main.ipynb`, un archivo tipo Notebook que permite realizar las diferentes partes paso a paso. Ahí, se pueden observar diferentes anotaciones.
+El trabajo puede ser ejecutado paso a paso haciendo uso de los archivos `main_nombre.ipynb`, archivos tipo Notebook que permiten realizar las diferentes partes paso a paso. Ahí, se pueden observar diferentes anotaciones.
